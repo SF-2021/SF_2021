@@ -1,0 +1,1525 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href = "nav.js" rel = "stylesheet">
+
+  <title>Все курсы</title>
+
+  <script src="../StudyUp/js/jquery-1.10.2.min.js"></script>
+  <script src="../StudyUp/js/jquery-ui.js"></script>
+  <script src="../StudyUp/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../StudyUp/css/bootstrap.min.css">
+  <link href = "../StudyUp/css/jquery-ui.css" rel = "stylesheet">
+  <!-- Custom CSS -->
+  <link href="../StudyUp/css/style.css" rel="stylesheet">
+</head>
+<div class="header1">
+  <div class="logo">
+    <a href="main.php"> <img src="image/logo.jpg" alt="logo" height="60" width="290"></a>
+  </div>
+  <div class="addLogin">
+    <div ><a class="cta" href="index3.php"> Добавить курс </a></div>
+    <div style="margin-left: 50px" ><a class="cta" href="register.php"> Войти </a></div>
+  </div>
+</div>
+
+<header>
+  <ul class="nav__links">
+    <li><a href="all.php"> Все онлайн курсы    </a></li>
+    <li><a href="#"> Авторский курс   </a></li>
+    <li><a href="#"> Все бесплатные курсы </a></li>
+    <li><a href="#"> Узнать больше...     </a></li>
+  </ul>
+  <p onclick="openNav()" class="menu cta">Menu</p>
+</header>
+<div id="mobile__menu" class="overlay">
+  <a class="close" onclick="closeNav()">&times;</a>
+  <div class="overlay__content">
+    <a href=""> Все онлайн курсы   </a>
+    <a href=""> Авторский курс  </a>
+    <a href=""> Все бесплатные курсы  </a>
+    <a href="">  Узнать больше...</a>
+  </div>
+</div>
+<header>
+  <ul class="nav__links">
+    <li><a href="gram.php"> Grammar    </a></li>
+    <li><a href="vocab.php">   Vocabulary  </a></li>
+    <li><a href="gen.php">  General English   </a></li>
+    <li><a href="Test.html"> Discover your English level  </a></li>
+  </ul>
+  <p onclick="openNav()" class="menu cta">Menu</p>
+</header>
+<script type="text/javascript" src="nav.js"> </script>
+
+
+
+<h1 class="page_test_title">English Level Test</h1>
+<div class="row">
+
+  <div class="col-sm-12">
+    <p>Please choose one option for each question then click <span class='color'><strong>Test Result</strong></span> to obtain your result and level (50 questions)</p>
+  </div>
+
+
+  <form method="post" action="Result.html">
+    <div class="col-sm-8 cont-test">
+      <ul class="about-text content-test">
+
+        <li>
+          <p class="test_title init_title"></p>
+
+
+          <div class="answer">
+            <p class="answer_title">1. How old are you?</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg0" /><span></span></label>
+                <p class="answer-text">A. I have 27 years old</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg0" /><span></span></label>
+                <p class="answer-text">B. I have 27 years</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg0" /><span></span></label>
+                <p class="answer-text">C. I am fine</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg0" /><span></span></label>
+                <p class="answer-text">D. I am 27 years old</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">2. He went to the Stadium .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg1" /><span></span></label>
+                <p class="answer-text">A. with taxi</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg1" /><span></span></label>
+                <p class="answer-text">B. by taxi</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg1" /><span></span></label>
+                <p class="answer-text">C. on taxi</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg1" /><span></span></label>
+                <p class="answer-text">D. in taxi</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">3. How long have you been living in London?</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg2" /><span></span></label>
+                <p class="answer-text">A. for 7 years</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg2" /><span></span></label>
+                <p class="answer-text">B. at least 7 years</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg2" /><span></span></label>
+                <p class="answer-text">C. since 7 years</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg2" /><span></span></label>
+                <p class="answer-text">D. 7 years ago</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">4. We haven't got ..... money.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg3" /><span></span></label>
+                <p class="answer-text">A. a lot</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg3" /><span></span></label>
+                <p class="answer-text">B. some</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg3" /><span></span></label>
+                <p class="answer-text">C. any</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg3" /><span></span></label>
+                <p class="answer-text">D. many</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">5. </p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg4" /><span></span></label>
+                <p class="answer-text">A. He like going to the movies</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg4" /><span></span></label>
+                <p class="answer-text">B. He likes going to the movies</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg4" /><span></span></label>
+                <p class="answer-text">C. He liked go to the movies</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg4" /><span></span></label>
+                <p class="answer-text">D. He like the movies</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">6. Peter ..... fly to San Francisco tomorrow.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg5" /><span></span></label>
+                <p class="answer-text">A. to going</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg5" /><span></span></label>
+                <p class="answer-text">B. goes to</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg5" /><span></span></label>
+                <p class="answer-text">C. is going to</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg5" /><span></span></label>
+                <p class="answer-text">D. go to</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">7. He plays soccer .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg6" /><span></span></label>
+                <p class="answer-text">A. on Wednesdays</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg6" /><span></span></label>
+                <p class="answer-text">B. in Wednesdays</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg6" /><span></span></label>
+                <p class="answer-text">C. at Wednesdays</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg6" /><span></span></label>
+                <p class="answer-text">D. by Wednesdays</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">8. .... some more coffee?</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg7" /><span></span></label>
+                <p class="answer-text">A. Do you?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg7" /><span></span></label>
+                <p class="answer-text">B. Do you like?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg7" /><span></span></label>
+                <p class="answer-text">C. You'd like</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg7" /><span></span></label>
+                <p class="answer-text">D. Would you like?</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">9. I wanted a green shirt but they only had .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg8" /><span></span></label>
+                <p class="answer-text">A. a one white</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg8" /><span></span></label>
+                <p class="answer-text">B. one white</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg8" /><span></span></label>
+                <p class="answer-text">C. a white</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg8" /><span></span></label>
+                <p class="answer-text">D. a white one</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">10. He ..... never been to America.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg9" /><span></span></label>
+                <p class="answer-text">A. does</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg9" /><span></span></label>
+                <p class="answer-text">B. has</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg9" /><span></span></label>
+                <p class="answer-text">C. haven't</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg9" /><span></span></label>
+                <p class="answer-text">D. hadn't       </p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">11. </p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg10" /><span></span></label>
+                <p class="answer-text">A. Richard usually arrives late</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg10" /><span></span></label>
+                <p class="answer-text">B. Richard late arrives usually</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg10" /><span></span></label>
+                <p class="answer-text">C. Richard late usually arrives</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg10" /><span></span></label>
+                <p class="answer-text">D. Richard usually late arrives</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">12. The house was empty. There ..... there.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg11" /><span></span></label>
+                <p class="answer-text">A. wasn't nobody</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg11" /><span></span></label>
+                <p class="answer-text">B. was anybody</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg11" /><span></span></label>
+                <p class="answer-text">C. was somebody</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg11" /><span></span></label>
+                <p class="answer-text">D. was nobody</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">13. If I were rich, I ..... buy a house on the beach.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg12" /><span></span></label>
+                <p class="answer-text">A. will</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg12" /><span></span></label>
+                <p class="answer-text">B. would</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg12" /><span></span></label>
+                <p class="answer-text">C. should</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg12" /><span></span></label>
+                <p class="answer-text">D. wish</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">14. When she arrived, he .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg13" /><span></span></label>
+                <p class="answer-text">A. already left</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg13" /><span></span></label>
+                <p class="answer-text">B. has already left</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg13" /><span></span></label>
+                <p class="answer-text">C. had already left</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg13" /><span></span></label>
+                <p class="answer-text">D. left</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">15. I forgot ..... the lights before I left.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg14" /><span></span></label>
+                <p class="answer-text">A. to turn off</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg14" /><span></span></label>
+                <p class="answer-text">B. put off</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg14" /><span></span></label>
+                <p class="answer-text">C. turning off</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg14" /><span></span></label>
+                <p class="answer-text">D. shot</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">16. By the time you finish the class I .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg15" /><span></span></label>
+                <p class="answer-text">A. will have left</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg15" /><span></span></label>
+                <p class="answer-text">B. leave</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg15" /><span></span></label>
+                <p class="answer-text">C. going to leave</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg15" /><span></span></label>
+                <p class="answer-text">D. would left</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">17. The room can't be dirty she .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg16" /><span></span></label>
+                <p class="answer-text">A. is just clean it.</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg16" /><span></span></label>
+                <p class="answer-text">B. have just cleaned it.</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg16" /><span></span></label>
+                <p class="answer-text">C. just clean it.</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg16" /><span></span></label>
+                <p class="answer-text">D. has just cleaned it.</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">18. He plays soccer, ..... ?</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg17" /><span></span></label>
+                <p class="answer-text">A. don't he?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg17" /><span></span></label>
+                <p class="answer-text">B. does he?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg17" /><span></span></label>
+                <p class="answer-text">C. isn't he?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg17" /><span></span></label>
+                <p class="answer-text">D. doesn't he?</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">19. If only I ..... to the party instead of staying at home.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg18" /><span></span></label>
+                <p class="answer-text">A. went</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg18" /><span></span></label>
+                <p class="answer-text">B. had gone</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg18" /><span></span></label>
+                <p class="answer-text">C. did go</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg18" /><span></span></label>
+                <p class="answer-text">D. have gone</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">20. Has Mrs. Smith arrived ..... ?</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg19" /><span></span></label>
+                <p class="answer-text">A. yet</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg19" /><span></span></label>
+                <p class="answer-text">B. still</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg19" /><span></span></label>
+                <p class="answer-text">C. now</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg19" /><span></span></label>
+                <p class="answer-text">D. already</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="sponsor" style="margin-top:30px; margin-bottom:30px;">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-7720647611401514" data-ad-slot="6960566825" data-ad-format="auto"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">21. Wendy is ..... Paul to get up now.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg20" /><span></span></label>
+                <p class="answer-text">A. telling</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg20" /><span></span></label>
+                <p class="answer-text">B. saying</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg20" /><span></span></label>
+                <p class="answer-text">C. saying to</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg20" /><span></span></label>
+                <p class="answer-text">D. telling to</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">22. Have you sent that letter to Mr. Taylor? Yes, I've ..... done that.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg21" /><span></span></label>
+                <p class="answer-text">A. still</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg21" /><span></span></label>
+                <p class="answer-text">B. yet</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg21" /><span></span></label>
+                <p class="answer-text">C. already</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg21" /><span></span></label>
+                <p class="answer-text">D. now</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">23. It's no use ..... to him. He doesn't listen.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg22" /><span></span></label>
+                <p class="answer-text">A. speaking</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg22" /><span></span></label>
+                <p class="answer-text">B. to speak</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg22" /><span></span></label>
+                <p class="answer-text">C. spoke</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg22" /><span></span></label>
+                <p class="answer-text">D. have spoken</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">24. This is the girl ..... I met on Thursday.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg23" /><span></span></label>
+                <p class="answer-text">A. whom</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg23" /><span></span></label>
+                <p class="answer-text">B. which</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg23" /><span></span></label>
+                <p class="answer-text">C. what</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg23" /><span></span></label>
+                <p class="answer-text">D. -----</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">25. ..... is your house from here?</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg24" /><span></span></label>
+                <p class="answer-text">A. How much</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg24" /><span></span></label>
+                <p class="answer-text">B. How long</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg24" /><span></span></label>
+                <p class="answer-text">C. How far</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg24" /><span></span></label>
+                <p class="answer-text">D. How many</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">26. You can watch TV ..... you like.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg25" /><span></span></label>
+                <p class="answer-text">A. whenever</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg25" /><span></span></label>
+                <p class="answer-text">B. soon</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg25" /><span></span></label>
+                <p class="answer-text">C. always</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg25" /><span></span></label>
+                <p class="answer-text">D. whatever</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">27. This house is quite old. It ..... in 1910.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg26" /><span></span></label>
+                <p class="answer-text">A. built</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg26" /><span></span></label>
+                <p class="answer-text">B. was built</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg26" /><span></span></label>
+                <p class="answer-text">C. build</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg26" /><span></span></label>
+                <p class="answer-text">D. has built</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">28. She ..... go to school yesterday.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg27" /><span></span></label>
+                <p class="answer-text">A. must</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg27" /><span></span></label>
+                <p class="answer-text">B. had to</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg27" /><span></span></label>
+                <p class="answer-text">C. ought to</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg27" /><span></span></label>
+                <p class="answer-text">D. should have</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">29. That's the ..... of my worries, it'll never happen.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg28" /><span></span></label>
+                <p class="answer-text">A. fewer</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg28" /><span></span></label>
+                <p class="answer-text">B. less</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg28" /><span></span></label>
+                <p class="answer-text">C. last</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg28" /><span></span></label>
+                <p class="answer-text">D. least</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">30. Don't ..... me. I'll be back late.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg29" /><span></span></label>
+                <p class="answer-text">A. hope for</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg29" /><span></span></label>
+                <p class="answer-text">B. waiting for</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg29" /><span></span></label>
+                <p class="answer-text">C. expect</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg29" /><span></span></label>
+                <p class="answer-text">D. wait for</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">31. The lady ..... in the corner is my aunt.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg30" /><span></span></label>
+                <p class="answer-text">A. whose</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg30" /><span></span></label>
+                <p class="answer-text">B. is sitting</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg30" /><span></span></label>
+                <p class="answer-text">C. sits</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg30" /><span></span></label>
+                <p class="answer-text">D. sitting</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">32. </p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg31" /><span></span></label>
+                <p class="answer-text">A. He used to play chess very often</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg31" /><span></span></label>
+                <p class="answer-text">B. He uses play chess very often</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg31" /><span></span></label>
+                <p class="answer-text">C. He was played chess very often</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg31" /><span></span></label>
+                <p class="answer-text">D. He didn't playing chess very often</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">33. He doesn't like ..... what to do.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg32" /><span></span></label>
+                <p class="answer-text">A. told</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg32" /><span></span></label>
+                <p class="answer-text">B. said</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg32" /><span></span></label>
+                <p class="answer-text">C. having said</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg32" /><span></span></label>
+                <p class="answer-text">D. being told</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">34. I ..... it doesn't rain tomorrow, I'm going for a picnic.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg33" /><span></span></label>
+                <p class="answer-text">A. wait</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg33" /><span></span></label>
+                <p class="answer-text">B. expect</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg33" /><span></span></label>
+                <p class="answer-text">C. hope</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg33" /><span></span></label>
+                <p class="answer-text">D. wish</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">35. I thought you .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg34" /><span></span></label>
+                <p class="answer-text">A. will come to the party</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg34" /><span></span></label>
+                <p class="answer-text">B. were coming to the party</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg34" /><span></span></label>
+                <p class="answer-text">C. come to the party</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg34" /><span></span></label>
+                <p class="answer-text">D. have come to the party</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">36. He remembers being ..... to the fair as a child.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg35" /><span></span></label>
+                <p class="answer-text">A. visited</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg35" /><span></span></label>
+                <p class="answer-text">B. brought</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg35" /><span></span></label>
+                <p class="answer-text">C. taken</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg35" /><span></span></label>
+                <p class="answer-text">D. shown</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">37. Finishing a course is always .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg36" /><span></span></label>
+                <p class="answer-text">A. satisfying</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg36" /><span></span></label>
+                <p class="answer-text">B. satisfaction</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg36" /><span></span></label>
+                <p class="answer-text">C. satisfies</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg36" /><span></span></label>
+                <p class="answer-text">D. satisfied</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">38. She worked hard yesterday and ..... finish everything.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg37" /><span></span></label>
+                <p class="answer-text">A. can</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg37" /><span></span></label>
+                <p class="answer-text">B. was able to</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg37" /><span></span></label>
+                <p class="answer-text">C. is hard</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg37" /><span></span></label>
+                <p class="answer-text">D. let</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">39. </p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg38" /><span></span></label>
+                <p class="answer-text">A. Ask her when will be ready the food</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg38" /><span></span></label>
+                <p class="answer-text">B. Ask her when the food will be ready</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg38" /><span></span></label>
+                <p class="answer-text">C. Ask her when will the food ready be</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg38" /><span></span></label>
+                <p class="answer-text">D. Ask her when will be the food ready</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">40. </p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg39" /><span></span></label>
+                <p class="answer-text">A. That's a little beige British proud bulldog</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg39" /><span></span></label>
+                <p class="answer-text">B. That's a proud beige little British bulldog</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg39" /><span></span></label>
+                <p class="answer-text">C. That's a little proud beige British bulldog</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg39" /><span></span></label>
+                <p class="answer-text">D. That's a proud little beige British bulldog</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">41. I wish I ..... a car, I'm tired of catching the bus.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg40" /><span></span></label>
+                <p class="answer-text">A. have</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg40" /><span></span></label>
+                <p class="answer-text">B. had</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg40" /><span></span></label>
+                <p class="answer-text">C. would have</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg40" /><span></span></label>
+                <p class="answer-text">D. had had</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">42. Peter can eat ..... as twenty oranges in one sitting.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg41" /><span></span></label>
+                <p class="answer-text">A. so many</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg41" /><span></span></label>
+                <p class="answer-text">B. so much</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg41" /><span></span></label>
+                <p class="answer-text">C. as many</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg41" /><span></span></label>
+                <p class="answer-text">D. as much</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">43. I know he didn't thank you, but he .... have done so.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg42" /><span></span></label>
+                <p class="answer-text">A. should</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg42" /><span></span></label>
+                <p class="answer-text">B. may</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg42" /><span></span></label>
+                <p class="answer-text">C. must</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg42" /><span></span></label>
+                <p class="answer-text">D. would</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">44. I won't go to the cinema ..... you come with me.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg43" /><span></span></label>
+                <p class="answer-text">A. except</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg43" /><span></span></label>
+                <p class="answer-text">B. otherwise</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg43" /><span></span></label>
+                <p class="answer-text">C. unless</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg43" /><span></span></label>
+                <p class="answer-text">D. therefore</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">45. He wrote the letter ..... , he didn't need anybody's help.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg44" /><span></span></label>
+                <p class="answer-text">A. on his own</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg44" /><span></span></label>
+                <p class="answer-text">B. by his own</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg44" /><span></span></label>
+                <p class="answer-text">C. on himself</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg44" /><span></span></label>
+                <p class="answer-text">D. by his ownership</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">46. Hotel rooms must be ..... by noon.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg45" /><span></span></label>
+                <p class="answer-text">A. vacated</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg45" /><span></span></label>
+                <p class="answer-text">B. evacuated</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg45" /><span></span></label>
+                <p class="answer-text">C. abandoned</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg45" /><span></span></label>
+                <p class="answer-text">D. leave</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">47. You can take the book with you ..... you give it back.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg46" /><span></span></label>
+                <p class="answer-text">A. as well as</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg46" /><span></span></label>
+                <p class="answer-text">B. as time as</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg46" /><span></span></label>
+                <p class="answer-text">C. as far as</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg46" /><span></span></label>
+                <p class="answer-text">D. as long as</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">48. Let's go watch the game, .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg47" /><span></span></label>
+                <p class="answer-text">A. will we?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg47" /><span></span></label>
+                <p class="answer-text">B. shall we?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg47" /><span></span></label>
+                <p class="answer-text">C. let us?</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg47" /><span></span></label>
+                <p class="answer-text">D. don't we?</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">49. I need to finish this ..... Friday.</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg48" /><span></span></label>
+                <p class="answer-text">A. during</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg48" /><span></span></label>
+                <p class="answer-text">B. by</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg48" /><span></span></label>
+                <p class="answer-text">C. until</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg48" /><span></span></label>
+                <p class="answer-text">D. at</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+
+          <div class="answer">
+            <p class="answer_title">50. After many years of research, they found the solution .....</p>
+            <ul class="answer_request">
+
+              <li>
+                <label><input type="radio" value="A" name="preg49" /><span></span></label>
+                <p class="answer-text">A. at the end</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="B" name="preg49" /><span></span></label>
+                <p class="answer-text">B. at last</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="C" name="preg49" /><span></span></label>
+                <p class="answer-text">C. by the end</p>
+              </li>
+
+              <li>
+                <label><input type="radio" value="D" name="preg49" /><span></span></label>
+                <p class="answer-text">D. on the end</p>
+              </li>
+
+            </ul>
+            <p class="answer_title question_end"></p>
+          </div>
+        </li>
+      </ul>
+      <div class="col-sm-12 cont-submit-test">
+        <input type="submit" value="Test Result" class="btn" name="sendForm">
+      </div>
+    </div>
+  </form>
+</div>
+
+  <aside class="col-sm-14">
+    <!-- ======= Footer ======= -->
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item">
+              <h3>О проекте </h3>
+              <ul>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">Курсы</a></li>
+                <li><a href="#">Помощь</a></li>
+              </ul>
+            </div>
+
+            <div class="col-sm-6 col-md-3 item">
+              <h3>Узнать больше...</h3>
+              <ul>
+                <li><a href="#">moldirkuanyshbayeva@gmail.com</a></li>
+                <li><a href="#"> shyrai2002@gmail.com</a></li>
+                <li><a href="#">Условия пользования сайтом</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text">
+              <h3>Study Up</h3>
+              <p>Онлайн-курсы. Занимайся самостоятельно по интерактивным курсам. Чем больше узнаешь, тем сильнее станешь.</p>
+            </div>
+            <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+          </div>
+          <p class="copyright">Study Up © 2021</p>
+        </div>
+      </footer>
+    </div>
+</html>
